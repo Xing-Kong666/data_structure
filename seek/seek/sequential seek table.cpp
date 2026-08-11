@@ -19,7 +19,7 @@ int SequSeek2(sstable st, int* object);
 /*算法3函数*/
 int SequSeek3(sstable st, int* object);
 
-int main() {
+int mainsst() {
 	/*定义顺序表类型*/
 	sstable st;
 	elemtype exam;

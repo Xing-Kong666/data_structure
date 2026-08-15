@@ -124,6 +124,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="binary search.cpp" />
+    <ClCompile Include="fibonacci search.cpp" />
+    <ClCompile Include="interpolation search.cpp" />
     <ClCompile Include="sequential seek table.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

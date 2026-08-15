@@ -1,5 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+/*顺序查找*/
+
 
 /*查找关键字keyword*/
 typedef int keyword;
@@ -18,6 +20,9 @@ int SequSeek1(sstable st, int* object);
 int SequSeek2(sstable st, int* object);
 /*算法3函数*/
 int SequSeek3(sstable st, int* object);
+
+
+
 
 int mainsst() {
 	/*定义顺序表类型*/

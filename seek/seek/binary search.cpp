@@ -1,5 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+/*二分查找*/
+
+
 
 /*查找关键字keyword*/
 typedef int keyword;
@@ -34,7 +37,16 @@ int BinaSeek2(sstable st, int* object, int left, int right) {
 	else if (object[mid] > st.key->word)BinaSeek2(st, object, left, mid - 1);
 	else return mid;
 }
-int main() {
+
+
+
+
+
+
+
+
+
+int mainbs() {
 	/*初始顺序表*/
 	sstable st1;
 	sstable st2;

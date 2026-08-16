@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="binary search.cpp" />
+    <ClCompile Include="binary sort tree.cpp" />
     <ClCompile Include="fibonacci search.cpp" />
     <ClCompile Include="interpolation search.cpp" />
     <ClCompile Include="sequential seek table.cpp" />

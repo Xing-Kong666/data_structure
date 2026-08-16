@@ -27,5 +27,8 @@
     <ClCompile Include="fibonacci search.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="binary sort tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

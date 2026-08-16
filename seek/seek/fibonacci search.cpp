@@ -62,7 +62,7 @@ int Fibonacci_Search(sstable st, int* object, int left, int right) {
 }
 
 
-int main() {
+int mainfs() {
 	/*≥ı ºÀ≥–Ú±Ì*/
 	sstable st;
 	st.length = 10;

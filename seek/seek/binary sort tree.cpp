@@ -90,7 +90,7 @@ int Binary_Sort_Tree_Init(bstree &b, int* keys,int keyslength) {
 	return ok;
 }/*Binary_Sort_Tree_Init*/
 /*释放内存*/
-void Free_Tree(bstree b) {
+void Free_Tree(bstree &b) {
 	if (!b)return;
 	Free_Tree(b->lchild);
 	Free_Tree(b->rchild);
@@ -107,7 +107,7 @@ void Print_Tree(bstree b) {
 
 
 
-int main() {
+int mainbst() {
 	/*初始化二叉排序树*/
 	bstree quite=(bst*)malloc(sizeof(bst));/*固定指针*/
 	bstree active=quite;/*动态指针*/

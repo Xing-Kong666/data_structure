@@ -30,5 +30,8 @@
     <ClCompile Include="binary sort tree.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="散列表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

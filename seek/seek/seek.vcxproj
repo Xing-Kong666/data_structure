@@ -128,6 +128,7 @@
     <ClCompile Include="fibonacci search.cpp" />
     <ClCompile Include="interpolation search.cpp" />
     <ClCompile Include="sequential seek table.cpp" />
+    <ClCompile Include="散列表.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -41,7 +41,7 @@ void Insert_Sort_Sentry(sqlist& goal) {/*直接插入有哨兵*/
 		goal.array[j + 1].key = goal.array[0].key;
 	}
 }
-int main() {
+int mainis() {
 	sqlist goal;
 	/*无哨兵算法测试*/
 	for (int i = 0; i < maxsize + 1; i++) {

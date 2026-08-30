@@ -28,7 +28,7 @@ void Binary_sort(sqlist& end) {//折半插入
 		end.array[right + 1].key = end.array[0].key;//插入
 	}
 }
-int main() {
+int mainbis() {
 	sqlist end;//初始化
 	end.length = 11;
 	for (int i = 1; i < maxsize + 1; i++)

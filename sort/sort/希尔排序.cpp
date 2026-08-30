@@ -22,7 +22,7 @@ void Print_Arr(int* arr,int length) {
 	}
 }
 
-int main() {
+int mainss() {
 	int arr[11];
 	arr[0] = 0;
 	for (int i = 1; i < 11; i++) {

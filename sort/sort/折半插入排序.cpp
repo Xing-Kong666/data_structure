@@ -11,7 +11,8 @@ typedef struct {
 	sortkey array[maxsize + 1];
 	int length;
 }sqlist;/*排序表*/
-
+/*折半插入添加哨兵防止越界
+最小时间复杂度o()*/
 void Binary_sort(sqlist& end) {//折半插入
 	for (int i = 2; i < maxsize + 1; i++) {
 		int left = 1, right = i - 1;

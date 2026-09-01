@@ -38,7 +38,7 @@ void Bubble_Sort_Change(int* arr, int length) {//ц╟ещеепР1.1.0
 	}
 }
 
-int main() {
+int mainbs() {
 	int arr[11];
 	arr[0] = 0;
 	for (int i = 1; i < 11; i++) {

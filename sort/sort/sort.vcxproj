@@ -125,6 +125,7 @@
   <ItemGroup>
     <ClCompile Include="冒泡排序.cpp" />
     <ClCompile Include="希尔排序.cpp" />
+    <ClCompile Include="快速排序.cpp" />
     <ClCompile Include="折半插入排序.cpp" />
     <ClCompile Include="直接插入排序.cpp" />
   </ItemGroup>

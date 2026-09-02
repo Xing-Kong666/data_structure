@@ -15,19 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="直接插入排序.cpp">
+    <ClCompile Include="插入排序-直接插入排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="折半插入排序.cpp">
+    <ClCompile Include="插入排序-折半插入排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="希尔排序.cpp">
+    <ClCompile Include="插入排序-希尔排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="冒泡排序.cpp">
+    <ClCompile Include="交换排序-冒泡排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="快速排序.cpp">
+    <ClCompile Include="交换排序-快速排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="选择排序-简单选择排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

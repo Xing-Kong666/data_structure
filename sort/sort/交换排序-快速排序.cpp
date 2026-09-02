@@ -29,7 +29,7 @@ void Quick_Sort(int* arr, int left,int right) {
 		Quick_Sort(arr, pivot + 1, right);
 	}
 }
-int main() {
+int mainqs() {
 	int arr[11];
 	arr[0] = 0;
 	for (int i = 1; i < 11; i++) {

@@ -1,7 +1,11 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
-
+/*最小时间复杂度:o(n*n)
+最大时间复杂度:o(n*n)
+平均时间复杂度:o(n*n)
+空间复杂度:o(1)
+不稳定排序*/
 void Select_Sort_1(int* arr, int length) {//1.0.0
 	for (int i = 0; i < length - 1; ++i) {
 		for (int j = i + 1; j < length; ++j) {

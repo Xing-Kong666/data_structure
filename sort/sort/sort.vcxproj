@@ -128,6 +128,7 @@
     <ClCompile Include="交换排序-快速排序.cpp" />
     <ClCompile Include="插入排序-折半插入排序.cpp" />
     <ClCompile Include="插入排序-直接插入排序.cpp" />
+    <ClCompile Include="选择排序-堆排序.cpp" />
     <ClCompile Include="选择排序-简单选择排序.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

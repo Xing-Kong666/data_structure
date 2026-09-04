@@ -30,7 +30,7 @@ void Select_Sort_2(int* arr, int length) {//1.0.1
 		}
 	}
 }
-int main() {
+int mainess() {
 	int arr[15];
 	int a[11];
 	printf("—°‘Ò≈≈–Ú«∞:\n");

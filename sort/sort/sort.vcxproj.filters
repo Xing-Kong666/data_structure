@@ -33,5 +33,8 @@
     <ClCompile Include="选择排序-简单选择排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="选择排序-堆排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

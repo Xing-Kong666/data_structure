@@ -45,7 +45,7 @@ void Heap_Sort_Min(int* arr, int end) {/*小根堆初始化并筛选排序*/
 		Heap_Ajust_Min(arr, 1, i - 1);
 	}/*用正序打印为大根堆*/
 }
-int main() {
+int mainhs() {
 	int arr1[14];
 	arr1[0] = 0;
 	printf("请输入13个数据:");

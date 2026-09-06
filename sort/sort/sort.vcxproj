@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="交换排序-冒泡排序.cpp" />
+    <ClCompile Include="基数排序.cpp" />
     <ClCompile Include="归并排序.cpp" />
     <ClCompile Include="插入排序-希尔排序.cpp" />
     <ClCompile Include="交换排序-快速排序.cpp" />

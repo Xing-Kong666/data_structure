@@ -29,13 +29,13 @@ void RedixSort(int* arr, int length,int max) {
 	int digit = 1;
 	for (int i = 1; i <= max; i++) {
 		struct d* temp[10];
-		for (int i = 0; i < 10; i++) temp[i]->head = NULL;/*初始化*/
+		for (int i = 0; i < 10; i++) temp[i]= NULL;/*初始化*/
 		for (int j = 0; j < length; j++) {/*填值*/
-			int end=GetDigit(arr[j], digit);
+			int end = GetDigit(arr[j], digit);
 			data node = (data)calloc(1, sizeof(dnode));
 			node->num = arr[j];
-			node->head = temp[end]->head;
-			temp[end]->head = node;
+			node->head = temp[end];
+			temp[end]= node;
 		}
 		int idx = 0;
 		for (int i = 0; i < length; i++) {
@@ -44,9 +44,31 @@ void RedixSort(int* arr, int length,int max) {
 			temp[idx] = temp[idx]->head;
 			if (!temp[idx])idx++;
 		}
+		data node = NULL;
+		for (int i = 0; i < length; i++) {
+			if (!temp[i])continue;
+			node = temp[i]->head;
+			while (!temp[i]) {
+				free(temp[i]);
+				temp[i] = node;
+				node = node->head;
+			}
+		}
 		digit++;
 	}
 }
-int main() {
+int mainrs() {
+	int arr[11];
+	printf("请输入11个数据:");/*254 685 142 658 346 268 425 369 852 147 789*/
+	for (int i = 0; i < 11; i++) {
+		scanf("%d", &arr[i]);
+	}
+
+	int cnt=GetMaxDigit(arr, 11);
+	RedixSort(arr, 11, cnt);
+	printf("基数排序测试:\n");
+	for (int i = 0; i < 11; i++) {
+		printf("%d ", arr[i]);
+	}
 	return 0;
 }

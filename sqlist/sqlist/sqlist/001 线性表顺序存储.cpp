@@ -88,7 +88,7 @@ int SearchElem(sqlist search,elemtype val) {
 	if (!flag)return error;
 	else return pos;
 }
-int main() {
+int main001() {
 	sqlist exam;
 	//初始化线性表
 	InitSqlist(&exam);

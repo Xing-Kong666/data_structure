@@ -21,5 +21,8 @@
     <ClCompile Include="002 线性表链式存储.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="003 静态链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

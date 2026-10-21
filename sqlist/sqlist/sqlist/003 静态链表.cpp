@@ -74,7 +74,7 @@ status DeleteStaticLinkList(staticlinklist de,int i) {
 	return ok;
 }
 
-int main() {
+int main003() {
 	staticlinklist ex;
 	InitStaticLinkList(ex);
 

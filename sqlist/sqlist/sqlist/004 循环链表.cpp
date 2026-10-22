@@ -56,7 +56,7 @@ status DeleteElem(looplinklist &de,int i, elemtype* e) {
 	return ok;
 }
 
-int main() {
+int main004() {
 	looplinklist ex=nullptr;
 	InitLoopLinkList(ex);
 	//ÎªÁ´±í¸³Öµ

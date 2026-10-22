@@ -127,6 +127,7 @@
     <ClCompile Include="002 线性表链式存储.cpp" />
     <ClCompile Include="003 静态链表.cpp" />
     <ClCompile Include="004 循环链表.cpp" />
+    <ClCompile Include="005 双端链表.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

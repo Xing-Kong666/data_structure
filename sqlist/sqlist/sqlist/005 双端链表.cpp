@@ -157,7 +157,7 @@ void test00502() {
 	cout << endl;
 
 }
-int main() {
+int main005() {
 	srand(time(0));
 	test00501();
 	test00502();

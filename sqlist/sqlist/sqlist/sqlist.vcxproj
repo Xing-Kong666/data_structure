@@ -129,6 +129,7 @@
     <ClCompile Include="004 循环链表.cpp" />
     <ClCompile Include="005 双端链表.cpp" />
     <ClCompile Include="006 顺序栈.cpp" />
+    <ClCompile Include="007 链栈.cpp" />
     <ClCompile Include="模版.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

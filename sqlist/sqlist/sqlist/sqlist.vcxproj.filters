@@ -36,5 +36,8 @@
     <ClCompile Include="模版.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="007 链栈.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

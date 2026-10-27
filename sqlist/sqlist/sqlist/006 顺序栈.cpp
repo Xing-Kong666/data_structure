@@ -83,7 +83,7 @@ void test006() {
 	delete e;
 	e = NULL;
 }
-int main() {
+int main006() {
 	srand(time(0));
 	test006();
 	system("pause");

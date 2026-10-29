@@ -84,7 +84,7 @@ void test00701() {
 	}
 	cout << endl;
 }
-int main() {
+int main007() {
 	srand(time(0));
 	test00701();
 	system("pause");

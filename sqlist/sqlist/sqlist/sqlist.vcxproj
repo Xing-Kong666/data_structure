@@ -131,6 +131,7 @@
     <ClCompile Include="006 顺序栈.cpp" />
     <ClCompile Include="007 链栈.cpp" />
     <ClCompile Include="008 递归-斐波那契数列的两种实现.cpp" />
+    <ClCompile Include="009 循环队列.cpp" />
     <ClCompile Include="模版.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

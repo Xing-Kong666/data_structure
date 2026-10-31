@@ -42,5 +42,8 @@
     <ClCompile Include="008 递归-斐波那契数列的两种实现.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="009 循环队列.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -133,7 +133,7 @@ void test009() {
 	cout << GetLength(ex) << endl;
 
 }
-int main() {
+int main009() {
 	srand(time(0));
 	test009();
 	system("pause");
